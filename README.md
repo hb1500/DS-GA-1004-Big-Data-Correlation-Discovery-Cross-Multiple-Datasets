@@ -19,24 +19,24 @@ For testing and presenting purpose, we will use our framework to find factors th
 
 ## Datasets and Methodology
 
-Datasets: 
+### Datasets: 
 
 1. 2006 - 2011 NYS Math Test Results By Grade- School Level - By English Proficiency Status
 2. 2010 - 2016 School Safety Report
 3. 2006 - 2012 School Demographics and Accountability Snapshot
 4. 2012 - 2017 Historical Monthly Grade Level Attendance By School
 
-Methodology: 
+### Methodology: 
 
-Dataset Transformation: 
+* Dataset Transformation: 
 
 In this step, we will implement necessary data cleansing. Also, transform non-numeric data type into numeric which makes further computation possible. 
 
-Feature Identification:
+* Feature Identification:
 
 First, we need to identify which columns of information are redundant in computing correlations. Then, we will do feature engineering. For example, slicing datasets by certain divisions like gender, class, school neighborhood, etc. Also, we could subset data by quantiles or outliners. After having all data columns, subsets ready, we calculate correlations with various measurements like Pearson, Kendall, Spearman, or self-defined measurements. 
 
-Relationship Evaluation and Visualization:
+* Relationship Evaluation and Visualization:
 
 This attribution allows users to evaluate the strength and direction of relationships between any two attributions in the datasets. User will have options to set thresholds to filter on correlation results. 
 A basic visualization function in the algorithms provide users with visualization to help them understand the relationships between attributes. For instance, we could make an elegant and well-labelled correlation matrix which represents the strength and direction of correlation by color. 
