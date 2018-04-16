@@ -42,7 +42,8 @@ This attribution allows users to evaluate the strength and direction of relation
 A basic visualization function in the algorithms provide users with visualization to help them understand the relationships between attributes. For instance, we could make an elegant and well-labelled correlation matrix which represents the strength and direction of correlation by color. 
 
 ## Datasets Used:
-[Taxi Data (Yellow)] (http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
+
+[Taxi Data (Yellow)](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
 (https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95)
 - [Vehicle Collisions] 
 (https://nyu.box.com/s/6epatrjp0bi8xvd17blzmoy301ikie9z)
