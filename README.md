@@ -44,28 +44,15 @@ A basic visualization function in the algorithms provide users with visualizatio
 ## Datasets Used:
 
 [Taxi Data (Yellow)](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
-(https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95)
-- [Vehicle Collisions] 
-(https://nyu.box.com/s/6epatrjp0bi8xvd17blzmoy301ikie9z)
-- [Weather]
-(https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
-- [311] 
-(https://www.citibikenyc.com/system-data)
-- [Citi Bike Trip Histories] 
-(https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
-- [Crime Data] 
-(https://nyu.box.com/s/hx7v2mpsw7rkdps6b613tvoiq9a1r448)
-- [Property Price] 
-(http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml)
-- [Census Data - demographics]
-(http://www.nyc.gov/html/dcp/html/census/socio_tables.shtml)
-- [Census Data - income information] 
-(http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml)
-- [Census Data (shape files)] 
+[Vehicle Collisions](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95)
+[Weather](https://nyu.box.com/s/6epatrjp0bi8xvd17blzmoy301ikie9z)
+[311](https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
+[Citi Bike Trip Histories](https://www.citibikenyc.com/system-data)
+[Crime Data](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
+[Property Price](https://nyu.box.com/s/hx7v2mpsw7rkdps6b613tvoiq9a1r448)
+[Census Data - income information](http://www.nyc.gov/html/dcp/html/census/socio_tables.shtml)
+[Census Data (shape files)](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml)
 
-(http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.00-IPython-Beyond-Normal-Python.ipynb)
-- [Help and Documentation in IPython]
-[Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do)
 ## Evaluation: 
 
 This project will be evaluated by the following four aspects: 
