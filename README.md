@@ -65,6 +65,7 @@ A basic visualization function in the algorithms provide users with visualizatio
 
 (http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.00-IPython-Beyond-Normal-Python.ipynb)
 - [Help and Documentation in IPython]
+[Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do)
 ## Evaluation: 
 
 This project will be evaluated by the following four aspects: 
