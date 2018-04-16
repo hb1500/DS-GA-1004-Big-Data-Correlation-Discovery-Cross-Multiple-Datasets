@@ -42,16 +42,16 @@ This attribution allows users to evaluate the strength and direction of relation
 A basic visualization function in the algorithms provide users with visualization to help them understand the relationships between attributes. For instance, we could make an elegant and well-labelled correlation matrix which represents the strength and direction of correlation by color. 
 
 ## Datasets Used:
-Taxi Data (Yellow) (http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
-Vehicle Collisions (https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95)
-Weather (https://nyu.box.com/s/6epatrjp0bi8xvd17blzmoy301ikie9z)
-311 (https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
-Citi Bike Trip Histories (https://www.citibikenyc.com/system-data)
-Crime Data (https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
-Property Price (https://nyu.box.com/s/hx7v2mpsw7rkdps6b613tvoiq9a1r448)
-Census Data - demographics (http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml)
-Census Data - income information (http://www.nyc.gov/html/dcp/html/census/socio_tables.shtml)
-Census Data (shape files) (http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml)
+-[Taxi Data (Yellow)] (http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
+-[Vehicle Collisions] (https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95)
+-[Weather] (https://nyu.box.com/s/6epatrjp0bi8xvd17blzmoy301ikie9z)
+-[311] (https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
+-[Citi Bike Trip Histories] (https://www.citibikenyc.com/system-data)
+-[Crime Data] (https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
+-[Property Price] (https://nyu.box.com/s/hx7v2mpsw7rkdps6b613tvoiq9a1r448)
+-[Census Data - demographics] (http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml)
+-[Census Data - income information] (http://www.nyc.gov/html/dcp/html/census/socio_tables.shtml)
+-[Census Data (shape files)] (http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml)
 
 ## Evaluation: 
 
