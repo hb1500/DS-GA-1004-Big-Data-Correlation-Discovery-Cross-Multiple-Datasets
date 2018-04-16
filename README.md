@@ -52,13 +52,6 @@ This dataset includes all valid felony, misdemeanor, and violation crimes report
 *[Census Data (shape files)](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml)
 
 
-### Datasets: 
-
-1. 2006 - 2011 NYS Math Test Results By Grade- School Level - By English Proficiency Status
-2. 2010 - 2016 School Safety Report
-3. 2006 - 2012 School Demographics and Accountability Snapshot
-4. 2012 - 2017 Historical Monthly Grade Level Attendance By School
-
 ### Methodology: 
 
 * Dataset Transformation: 
@@ -73,26 +66,6 @@ First, we need to identify which columns of information are redundant in computi
 
 This attribution allows users to evaluate the strength and direction of relationships between any two attributions in the datasets. User will have options to set thresholds to filter on correlation results. 
 A basic visualization function in the algorithms provide users with visualization to help them understand the relationships between attributes. For instance, we could make an elegant and well-labelled correlation matrix which represents the strength and direction of correlation by color. 
-
-## Datasets Used:
-
-*[Taxi Data (Yellow)](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
-
-*[Vehicle Collisions](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95)
-
-*[Weather](https://nyu.box.com/s/6epatrjp0bi8xvd17blzmoy301ikie9z)
-
-*[311](https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
-
-*[Citi Bike Trip Histories](https://www.citibikenyc.com/system-data)
-
-*[Crime Data](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
-
-*[Property Price](https://nyu.box.com/s/hx7v2mpsw7rkdps6b613tvoiq9a1r448)
-
-*[Census Data - income information](http://www.nyc.gov/html/dcp/html/census/socio_tables.shtml)
-
-*[Census Data (shape files)](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml)
 
 ## Related works and references: 
 
@@ -110,4 +83,6 @@ By submitting this report, we have already implemented the first step -- Data Pr
 
 In this step, we use Hadoop Map-Reduce to preprocess each dataset. The preprocessing includes data cleaning and pre-aggregation. For data cleaning, we regulate that features will be ignored if there are over 80\% of values in that feature is missing. In pre-aggregation, we first need to define our unified MapReduce output format to make computing correlations between datasets with all possible spatial and temporal resolutions. In this unified MapReduce output format, the key is temporal and spatial data with identifiers that implies corresponding data resolution, whereas the value is all the other attributes that contains usable information. Specifically, the unified MapReduce format is defined as a key-value pair as follows: 
 
+## Reference
 
+[1]Chirigati, F., Doraiswamy, H., Damoulas, T., & Freire, J. (2016, June). Data polygamy: the many-many relationships among urban spatio-temporal data sets. In Proceedings of the 2016 International Conference on Management of Data (pp. 1011-1025). ACM.
