@@ -43,25 +43,25 @@ A basic visualization function in the algorithms provide users with visualizatio
 
 ## Datasets Used:
 (http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
--[Taxi Data (Yellow)] 
+- [Taxi Data (Yellow)] 
 (https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95)
--[Vehicle Collisions] 
+- [Vehicle Collisions] 
 (https://nyu.box.com/s/6epatrjp0bi8xvd17blzmoy301ikie9z)
--[Weather]
+- [Weather]
 (https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
--[311] 
+- [311] 
 (https://www.citibikenyc.com/system-data)
--[Citi Bike Trip Histories] 
+- [Citi Bike Trip Histories] 
 (https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
--[Crime Data] 
+- [Crime Data] 
 (https://nyu.box.com/s/hx7v2mpsw7rkdps6b613tvoiq9a1r448)
--[Property Price] 
+- [Property Price] 
 (http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml)
--[Census Data - demographics]
+- [Census Data - demographics]
 (http://www.nyc.gov/html/dcp/html/census/socio_tables.shtml)
--[Census Data - income information] 
+- [Census Data - income information] 
 (http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml)
--[Census Data (shape files)] 
+- [Census Data (shape files)] 
 
 ## Evaluation: 
 
