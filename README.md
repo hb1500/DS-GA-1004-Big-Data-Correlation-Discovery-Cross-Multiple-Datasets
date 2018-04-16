@@ -1,9 +1,13 @@
-# DS-GA 1004 Project Original Proposal
+# DS-GA 1004 Project Proposal
+
 ## New proposal will be posted soon
-Hetian Bai (hb1500), Jieyu Wang (jw4937), Zhiming Guo (zg758)
+Hetian Bai (hb1500@nyu.edu), Jieyu Wang (jw4937@nyu.edu), Zhiming Guo (zg758@nyu.edu)
 
+## Abstract
 
-This is a brief proposal for DS-GA 1004 term project. In this project, we are aiming to develop an effective and scalable data exploration application that helps users to identify salient relationships between columns within and cross datasets. We will use tools such as Hadoop and Spark in data processing for their highly efficient and time-saving computational ability on large datasets. 
+With the collection of various types of data in spatial and temporal over years, the urban environments in New York City can be represented by these datasets in different categories. To unfold the interesting and hidden relationship among NYC urban data, it is vital to not only consider the relationship between two features within a single dataset, but also the relationships cross many datasets. With a well-designed program, researchers can easily discover relationships between any two features in NYC city datasets. These new findings can possibly help city management, disease control, traffic improvement, etc.
+
+Our goal for this project is to design a pipeline under Hadoop and Spark, which allows users to explore any two features' correlation (entropy and mutual information) from the existing datasets in NYC Open Data. At the same time, some hypotheses will be tested under this architecture, such as the faster speed of wind or the lower visibility would lead to more frequent collision; Poorer neighborhood has higher crime rate, etc. A further step of this project, we propose our innovative idea that is to use proper ways to visualize correlations of features.
 
 ## Previous works and references
 
