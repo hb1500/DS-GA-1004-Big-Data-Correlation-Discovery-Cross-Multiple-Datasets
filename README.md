@@ -1,5 +1,5 @@
-# DS-GA 1004 Project Proposal
-
+# DS-GA 1004 Project Original Proposal
+## New proposal will be posted soon
 Hetian Bai (hb1500), Jieyu Wang (jw4937), Zhiming Guo (zg758)
 
 
