@@ -63,6 +63,8 @@ A basic visualization function in the algorithms provide users with visualizatio
 (http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml)
 - [Census Data (shape files)] 
 
+(http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.00-IPython-Beyond-Normal-Python.ipynb)
+- [Help and Documentation in IPython]
 ## Evaluation: 
 
 This project will be evaluated by the following four aspects: 
