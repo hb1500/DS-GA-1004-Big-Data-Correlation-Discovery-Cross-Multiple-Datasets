@@ -78,10 +78,12 @@ The main reference for our project is  "Data Polygamy: The Many-Many Relationshi
 This is the architecture we designed for this project. There are three general procedures which are framed in the figure above: Data Preprocessing, Datasets Combining Process, and Correlation Calculating \& Visualizing. See Figure 
 
 By submitting this report, we have already implemented the first step -- Data Preprocessing. Detailed steps in each procedures will be discussed in Methodology below.
-![cover image](.png)
+
 ## Methodology
 
 In this step, we use Hadoop Map-Reduce to preprocess each dataset. The preprocessing includes data cleaning and pre-aggregation. For data cleaning, we regulate that features will be ignored if there are over 80\% of values in that feature is missing. In pre-aggregation, we first need to define our unified MapReduce output format to make computing correlations between datasets with all possible spatial and temporal resolutions. In this unified MapReduce output format, the key is temporal and spatial data with identifiers that implies corresponding data resolution, whereas the value is all the other attributes that contains usable information. Specifically, the unified MapReduce format is defined as a key-value pair as follows: 
+
+![cover image](\Architecture.png)
 
 ## Reference
 
