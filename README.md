@@ -83,7 +83,7 @@ By submitting this report, we have already implemented the first step -- Data Pr
 
 In this step, we use Hadoop Map-Reduce to preprocess each dataset. The preprocessing includes data cleaning and pre-aggregation. For data cleaning, we regulate that features will be ignored if there are over 80\% of values in that feature is missing. In pre-aggregation, we first need to define our unified MapReduce output format to make computing correlations between datasets with all possible spatial and temporal resolutions. In this unified MapReduce output format, the key is temporal and spatial data with identifiers that implies corresponding data resolution, whereas the value is all the other attributes that contains usable information. Specifically, the unified MapReduce format is defined as a key-value pair as follows: 
 
-![cover image](\Architecture.png)
+![cover image](/Architecture.png)
 
 ## Reference
 
