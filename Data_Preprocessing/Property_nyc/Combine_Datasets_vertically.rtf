@@ -1,0 +1,12 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+To combine multiple files and remove the headings, please use the following commands in command line.\
+>> for f in *.csv; do cat "`pwd`/$f" | tail -n +2 >> merged.csv; done\
+}
