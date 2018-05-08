@@ -59,7 +59,7 @@ def calu_MI(data,x_bin,y_bin, bins):
             else:
                 key = str(s)+ '>*<' + str(t)
                 df[s].values
-                cc[key] = Mutual_Info.mutual_information(df_num[s], df_num[t], x_bin,y_bin, bins=bins)
+                cc[key] = mutual_information(df_num[s], df_num[t], x_bin,y_bin, bins=bins)
             output = pd.Series(cc,index=cc.keys())
             # rank mutual information by its values
     return output.sort_values(ascending=False)
