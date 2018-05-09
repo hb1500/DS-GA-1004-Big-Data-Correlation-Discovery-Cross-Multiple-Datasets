@@ -1,48 +1,52 @@
-import pandas as pd
-import numpy as np
-log2= lambda x:log(x,2)
 from collections import defaultdict
+import pandas as pd
+log2= lambda x:log(x,2)
 from math import log
 
-def mutual_information(x, y, x_bin ,y_bin, bins=10):
-    if x_bin:
-        x = pd.cut(x, bins=bins, labels=False)
-    if y_bin:
-        y = pd.cut(y, bins=bins,  labels=False)
-    return entropy(y) - conditional_entropy(x,y)
+class Mutual_Info():
 
-def conditional_entropy(x, y):
-    """
-    x: a list of number 
-    y: a list of number 
-    """
-    Py= compute_distribution(y)
-    Px= compute_distribution(x)
-
-    res= 0
-    for ey in set(y):
-
-        x1= x[y==ey]
-        condPxy= compute_distribution(x1)
-
-        for k, v in condPxy.items():
-            res+= (v*Py[ey]*(log2(Px[k]) - log2(v*Py[ey])))
-    return res
+    def __init__(self, x, y, x_bin, y_bin, bins):
+        self.x = x
+        self.y = y
+        self.x_bin = x_bin
+        self.y_bin = y_bin
+        self.bins = bins
         
-def entropy(y):
+    def mutual_information(self):
+        if self.x_bin:
+            x = pd.cut(self.x, self.bins, labels=False)
+        if self.y_bin:
+            y = pd.cut(self.y, self.bins,  labels=False)
+        return entropy(self.y) - self.conditional_entropy()    
 
-    Py= compute_distribution(y)
-    res=0.0
-    for k, v in Py.items():
-        res+=v*log2(v)
-    return -res
+    def conditional_entropy(self):
 
-def compute_distribution(v):
+        Py= self.compute_distribution(self.y)
+        Px= self.compute_distribution(self.x)
+        res= 0
+        for ey in set(self.y):
+            print(self.x, self.y)
+            x1 = self.x[self.y==ey]
+            print(x1)
+            condPxy= self.compute_distribution(x1)
 
-    d= defaultdict(int)
-    for e in v: d[e]+=1
-    s= float(sum(d.values()))
-    return dict((k, v/s) for k, v in d.items())
+            for k, v in condPxy.items():
+                res+= (v*Py[ey]*(log2(Px[k]) - log2(v*Py[ey])))
+        return res
+
+    def entropy(self):
+        
+        Py= self.compute_distribution(self.y)
+        res=0.0
+        for k, v in Py.items():
+            res+=v*log2(v)
+        return -res
+   
+    def compute_distribution(self, v):
+        d= defaultdict(int)
+        for e in v: d[e]+=1
+        s= float(sum(d.values()))
+        return dict((k, v/s) for k, v in d.items())  
 
 ### function used to calculate mutual information between any two features given a dataset.
 
